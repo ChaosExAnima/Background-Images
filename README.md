@@ -1,6 +1,9 @@
 # Background Images
 Extension for Mediawiki to allow inline background images.
 
+## Installation
+Put into `/extensions/BackgroundImages` folder. Load with `require_once "$IP/extensions/BackgroundImages/BackgroundImages.php";` in LocalSettings.php.
+
 ## Usage
 This:
 ```html
