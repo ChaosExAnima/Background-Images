@@ -44,5 +44,6 @@ class BackgroundImages {
 		if ( false !== strpos( $text, self::TAG ) ) {
 			$text = preg_replace( '/' . self::TAG . ': \( (.+) \);/', 'background-image: url( \'$1\' );', $text );
 		}
+		return true;
 	}
 }
